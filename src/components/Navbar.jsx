@@ -62,7 +62,7 @@ export const Navbar = () => {
           <div className="hidden md:flex space-x-6 items-center">
 
             {menuItems.map(name => (
-                <li key={name} id={name}
+                <li key={name} 
                     className={`relative group cursor-pointer flex items-center gap-1 text-gray-700 
                                 hover:text-yellow-400 transition-colors
                                 ${

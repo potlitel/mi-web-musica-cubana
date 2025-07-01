@@ -1,4 +1,5 @@
 // string-utils.jsx (or string-utils.js)
+//https://github.com/Remonhasan/react-utils/blob/main/StringUtils.ts
 
 /**
  * Capitalizes the first letter of a string.
@@ -42,3 +43,7 @@ export const removeWhitespace = (str) => {
   if (!str) return '';
   return str.replace(/\s/g, '');
 };
+
+export const removeAccents = (str) => {
+      return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    };

@@ -1,13 +1,13 @@
 // src/pages/Inicio.jsx
 import { Hero } from '../components/Hero';
 import { Card } from '../components/Card';
-
 import TimelineHistoria from '../components/TimelineHistoria';
 import FeatureList from '../components/FeatureList';
 import Vision from '../components/Vision';
 import {Investigation} from '../components/Investigation';
 import { eventosHistoria } from '../data/eventosHistoria';
 import ArrowTop from '../components/ArrowTop';
+import { useRef } from 'react';
 
 // Imágenes de ejemplo. Reemplázalas por las tuyas en la carpeta `src/assets/`
 // O usa URLs de un servicio como unsplash.com para prototipar.
@@ -66,6 +66,8 @@ const generos = [
 ];
 
 export const Inicio = () => {
+  const sectionRef = useRef();
+
   return (
     <div>
       <Hero />
@@ -77,7 +79,7 @@ export const Inicio = () => {
         <TimelineHistoria eventos={eventosHistoria} />
       </section> */}
 
-      <section id="Géneros" className="py-16 bg-gray-100">
+      <section ref={sectionRef} data-target="desired-section" id="Géneros" className="py-16 bg-gray-100">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
             Explora los Géneros Fundamentales
