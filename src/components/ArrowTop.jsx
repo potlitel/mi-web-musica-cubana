@@ -1,0 +1,32 @@
+import { useState, useEffect } from "react";
+
+export default function ArrowTop() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setVisible(window.scrollY > 400); // Ajusta el valor según cuándo quieras mostrar la flecha
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  return (
+    <button
+      onClick={scrollToTop}
+      className={`fixed bottom-6 right-6 z-50 p-3 rounded-full bg-indigo-600 text-white shadow-lg transition-opacity duration-300 hover:cursor-pointer ${
+        visible ? "opacity-100" : "opacity-0 pointer-events-none"
+      }`}
+      aria-label="Volver arriba"
+    >
+      {/* Puedes usar un SVG o un icono de librería */}
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+      </svg>
+    </button>
+  );
+}

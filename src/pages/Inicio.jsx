@@ -7,6 +7,7 @@ import FeatureList from '../components/FeatureList';
 import Vision from '../components/Vision';
 import {Investigation} from '../components/Investigation';
 import { eventosHistoria } from '../data/eventosHistoria';
+import ArrowTop from '../components/ArrowTop';
 
 // Imágenes de ejemplo. Reemplázalas por las tuyas en la carpeta `src/assets/`
 // O usa URLs de un servicio como unsplash.com para prototipar.
@@ -93,6 +94,7 @@ export const Inicio = () => {
           </div>
         </div>
       </main>
+      <ArrowTop/>
     </div>
   );
 };
