@@ -1,26 +1,3 @@
-// src/components/Footer.jsx
-// export const Footer = () => {
-//   const currentYear = new Date().getFullYear();
-//   return (
-//     <footer className="bg-gray-900 text-gray-400 py-6">
-//       <div className="container mx-auto text-center px-6">
-//         <p>&copy; {currentYear} MúsicaCubana.sci. Todos los derechos reservados.</p>
-//         <p className="text-sm mt-2">
-//           Un proyecto de investigación y divulgación.
-//         </p>
-//       </div>
-//     </footer>
-//   );
-// };
-
-// src/components/Footer.jsx
-// import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-// import Icon from '@mdi/react';
-// import { mdiFacebook } from '@mdi/js';
-// import { mdiInstagram } from '@mdi/js';
-// import { mdiTwitter } from '@mdi/js';
-// import { mdiYoutube } from '@mdi/js';
-
 export const Footer= () => {
   const currentYear = new Date().getFullYear();
   return (

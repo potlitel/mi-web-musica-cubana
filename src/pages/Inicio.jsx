@@ -4,6 +4,7 @@ import { Card } from '../components/Card';
 
 import TimelineHistoria from '../components/TimelineHistoria';
 import FeatureList from '../components/FeatureList';
+import Vision from '../components/Vision';
 import {Investigation} from '../components/Investigation';
 import { eventosHistoria } from '../data/eventosHistoria';
 
@@ -67,13 +68,13 @@ export const Inicio = () => {
   return (
     <div>
       <Hero />
+      <Vision/>
       <Investigation />
       <FeatureList />
 
-      <section id="historia" className="bg-white">
-        {/* <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-gray-800">Historia</h2> */}
+      {/* <section id="historia" className="bg-white">
         <TimelineHistoria eventos={eventosHistoria} />
-      </section>
+      </section> */}
 
       <main id="explorar" className="py-16 bg-gray-100">
         <div className="container mx-auto px-6">
