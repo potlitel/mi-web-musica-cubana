@@ -1,6 +1,6 @@
 const Vision= () => {
   return (
-    <section class="bg-gray-100 py-16">
+    <section id="Vision" class="bg-gray-100 py-16">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center space-x-4">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-secondary">

@@ -5,7 +5,7 @@ import img3 from '../assets/images/vibrant-latin-musicians-cuban-dancers-perform
 
 const FeatureList = () => {
   return (
-    <div className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
+    <section id="FeatureList" className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
 
         <div class="mb-16 text-center">
             {/* <h4 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Ritmo contagioso</h4> */}
@@ -150,7 +150,7 @@ const FeatureList = () => {
             </div>
         </div>
     </div>
-</div>
+</section>
   );
 };
 

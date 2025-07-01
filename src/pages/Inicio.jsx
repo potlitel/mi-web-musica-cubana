@@ -77,7 +77,7 @@ export const Inicio = () => {
         <TimelineHistoria eventos={eventosHistoria} />
       </section> */}
 
-      <main id="explorar" className="py-16 bg-gray-100">
+      <section id="Géneros" className="py-16 bg-gray-100">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
             Explora los Géneros Fundamentales
@@ -93,7 +93,7 @@ export const Inicio = () => {
             ))}
           </div>
         </div>
-      </main>
+      </section>
       <ArrowTop/>
     </div>
   );

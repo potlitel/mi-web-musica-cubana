@@ -5,7 +5,7 @@ import { scrollToElement } from '../utils/ui-utils';
 export const Hero = () => {
   return (
     // Podrías añadir una imagen de fondo aquí con bg-[url('/path/to/image.jpg')]
-    <div className="bg-gray-800 text-white text-center py-20 px-6" style={{ 
+    <div className="bg-gray-800 text-white text-center py-30 px-6" style={{ 
   backgroundImage: `url('src/assets/images/vibrant-latin-musicians-cuban-dancers-performing-salsa-bachata_1322206gg-17529.avif')`,
   backgroundRepeat: 'no-repeat',
 }}>
