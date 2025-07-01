@@ -1,15 +1,84 @@
-# React + Vite
+# Música Cubana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositorio dedicado a la recopilación, documentación y difusión de música cubana en diversos formatos y épocas.
 
-Currently, two official plugins are available:
+## Índice
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Música Cubana](#música-cubana)
+  - [Índice](#índice)
+  - [Descripción](#descripción)
+  - [Estructura del Proyecto](#estructura-del-proyecto)
+  - [Instalación](#instalación)
+  - [Uso](#uso)
+  - [Tecnologías Utilizadas](#tecnologías-utilizadas)
+  - [Contribuciones](#contribuciones)
+  - [Roadmap](#roadmap)
+  - [Autores y Créditos](#autores-y-créditos)
+  - [Licencia](#licencia)
 
-## Expanding the ESLint configuration
+## Descripción
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto tiene como objetivo preservar y compartir la riqueza musical de Cuba, abarcando géneros como son, bolero, salsa, rumba, jazz afrocubano, y más. Aquí encontrarás archivos de audio, partituras, información histórica y recursos multimedia relacionados con la música cubana.
+
+## Estructura del Proyecto
+
+musica-cubana/
+├─ audio/
+│ ├─ clasicos/
+│ └─ contemporaneos/
+├─ partituras/
+├─ docs/
+│ ├─ historia.md
+│ └─ artistas.md
+├─ img/
+│ └─ portada.png
+└─ README.md
+
+
+## Instalación
+
+No se requiere instalación especial para explorar el contenido. Puedes clonar el repositorio con:
+
+```bash
+git clone https://github.com/potlitel/mi-web-musica-cubana.git
+```
+Una vez clonado el repositorio:
+
+```bash
+cd mi-web-musica-cubana
+npm run dev
+```
+
+
+## Uso
+
+- Navega por las carpetas para acceder a los audios, partituras y documentación.
+- Si deseas contribuir, consulta la sección [Contribuciones](#contribuciones).
+
+## Tecnologías Utilizadas
+
+- Markdown para documentación
+- Git y GitHub para control de versiones y colaboración
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Por favor, revisa el archivo `CONTRIBUTING.md` para conocer las reglas y el proceso para enviar pull requests[2][5].
+
+## Roadmap
+
+- Añadir más géneros musicales y artistas.
+- Incluir análisis musicológicos y recursos didácticos.
+- Crear una interfaz web para visualización y escucha en línea.
+
+## Autores y Créditos
+
+- **potlitel** - Trabajo inicial y mantenimiento
+- Consulta la lista de [colaboradores](https://github.com/potlitel/mi-web-musica-cubana/graphs/contributors) que han participado en este proyecto.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para más detalles.
+
 
 
 - [Contact Us / Enquiry-form Responsive](https://tailwindflex.com/@kuldeep541/contact-us-enquiry-form-responsive)
