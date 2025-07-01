@@ -1,5 +1,6 @@
 // src/components/Hero.jsx
 import TypingEffect from './TypingEffect';
+import { scrollToElement } from '../utils/ui-utils';
 
 export const Hero = () => {
   return (
@@ -15,7 +16,7 @@ export const Hero = () => {
       <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-gray-300">
         Una exploración científica de los ritmos, historias y figuras que definen la música cubana.
       </p>
-      <a href="#explorar" className="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition-transform transform hover:scale-105">
+      <a href="#explorar" onClick={(e) => scrollToElement(e, 'explorar')} className="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition-transform transform hover:scale-105">
         Explorar Ahora
       </a>
     </div>
