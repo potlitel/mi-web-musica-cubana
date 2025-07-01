@@ -6,21 +6,21 @@ Repositorio dedicado a la recopilación, documentación y difusión de música c
 
 - [Música Cubana](#música-cubana)
   - [Índice](#índice)
-  - [Descripción](#descripción)
-  - [Estructura del Proyecto](#estructura-del-proyecto)
-  - [Instalación](#instalación)
-  - [Uso](#uso)
+  - [🚦Descripción](#descripción)
+  - [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+  - [🛠️ Instalación](#️-instalación)
+  - [🚀 Uso](#-uso)
   - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-  - [Contribuciones](#contribuciones)
-  - [Roadmap](#roadmap)
-  - [Autores y Créditos](#autores-y-créditos)
-  - [Licencia](#licencia)
+  - [🤝 Contribuciones](#-contribuciones)
+  - [🏃 Roadmap](#-roadmap)
+  - [✒️ Autores y Créditos](#️-autores-y-créditos)
+  - [📄 Licencia](#-licencia)
 
-## Descripción
+## 🚦Descripción
 
 Este proyecto tiene como objetivo preservar y compartir la riqueza musical de Cuba, abarcando géneros como son, bolero, salsa, rumba, jazz afrocubano, y más. Aquí encontrarás archivos de audio, partituras, información histórica y recursos multimedia relacionados con la música cubana.
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 musica-cubana/
 ├─ audio/
@@ -35,22 +35,22 @@ musica-cubana/
 └─ README.md
 
 
-## Instalación
+## 🛠️ Instalación
 
 No se requiere instalación especial para explorar el contenido. Puedes clonar el repositorio con:
 
 ```bash
 git clone https://github.com/potlitel/mi-web-musica-cubana.git
 ```
+
+## 🚀 Uso
+
 Una vez clonado el repositorio:
 
 ```bash
 cd mi-web-musica-cubana
 npm run dev
 ```
-
-
-## Uso
 
 - Navega por las carpetas para acceder a los audios, partituras y documentación.
 - Si deseas contribuir, consulta la sección [Contribuciones](#contribuciones).
@@ -59,23 +59,25 @@ npm run dev
 
 - Markdown para documentación
 - Git y GitHub para control de versiones y colaboración
+- React para desarrollo
+- Tailwind css para desarrollo
 
-## Contribuciones
+## 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Por favor, revisa el archivo `CONTRIBUTING.md` para conocer las reglas y el proceso para enviar pull requests[2][5].
 
-## Roadmap
+## 🏃 Roadmap
 
 - Añadir más géneros musicales y artistas.
 - Incluir análisis musicológicos y recursos didácticos.
 - Crear una interfaz web para visualización y escucha en línea.
 
-## Autores y Créditos
+## ✒️ Autores y Créditos
 
 - **potlitel** - Trabajo inicial y mantenimiento
 - Consulta la lista de [colaboradores](https://github.com/potlitel/mi-web-musica-cubana/graphs/contributors) que han participado en este proyecto.
 
-## Licencia
+## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para más detalles.
 
