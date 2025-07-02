@@ -2,6 +2,7 @@
 import MusicNoteIcon from 'mdi-react/MusicNoteIcon';
 // import { useSticky } from '../utils/ui-utils';
 import { useState, useEffect } from 'react';
+import { scrollToElement } from '../utils/ui-utils';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,7 +68,8 @@ export const Navbar = () => {
                                 hover:text-yellow-300 transition-colors block opacity-75 -mb-1
                                 ${
                                   activeSection === name ? 'text-yellow-300 transition-colors' : ''
-                                }`}>
+                                }`}
+                    onClick={(e) => scrollToElement(e, name)} >
                   <span>{name}</span>
                   <MusicNoteIcon size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"/>
                 </li>
@@ -80,12 +82,15 @@ export const Navbar = () => {
         {isOpen && (
           <div className="md:hidden mt-4 space-x-6 items-center">
             {menuItems.map(name => (
-                <li key={name} className="relative group cursor-pointer flex items-center gap-1 text-gray-700 hover:text-yellow-400 transition-colors">
+                 <li key={name} 
+                    className={`relative group cursor-pointer flex items-center gap-1 text-gray-500 
+                                hover:text-yellow-300 transition-colors block opacity-75 -mb-1
+                                ${
+                                  activeSection === name ? 'text-yellow-300 transition-colors' : ''
+                                }`}
+                    onClick={(e) => scrollToElement(e, name)} >
                   <span>{name}</span>
-                  <MusicNoteIcon  
-                        size={20} 
-                        className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  />
+                  <MusicNoteIcon size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"/>
                 </li>
             ))}
             

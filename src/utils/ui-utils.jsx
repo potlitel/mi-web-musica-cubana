@@ -14,7 +14,7 @@ export const scrollToElement = (event, id) => {
   if (element) {
     element.scrollIntoView({ 
         behavior: 'smooth', 
-        block: 'center' // or "start", "end", "nearest"
+        block: 'nearest' // or "start", "end", "nearest"
       });
   }
 };
