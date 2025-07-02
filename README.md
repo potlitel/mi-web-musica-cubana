@@ -93,3 +93,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para 
 - [EPUB Reader](https://icecreamapps.com/es/Ebook-Reader/) -> Landing page de referencia.
 - [How To Make The Navigation Bar Sticky On Scrolling In React](https://chesteralan.medium.com/how-to-make-the-navigation-bar-sticky-on-scrolling-in-react-a7ee629fe30c)
 - [Tailwind UI Sticky Navigation](https://tailkits.com/blog/tailwind-ui-sticky-navigation/)
+- [Team Showcase](https://tailwindflex.com/@kuldeep541/team-showcase) OJO, para el listado de autores musicales
+- [Kids E-learning Platform Card](https://tailwindflex.com/@sammytg7/kids-e-learning-platform-card)
+- ["Visit Rwanda" tourism website focusing on wildlife, particularly mountain gorillas](https://tailwindflex.com/@mfuranziza-hamza/visit-rwanda-tourism-website-focusing-on-wildlife-particularly-mountain-gorillas) OJO, buen efecto 'on hover'
+- [Stepper example](https://tailwindflex.com/@santos78/stepper-example)
