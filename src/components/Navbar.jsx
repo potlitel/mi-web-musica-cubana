@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const menuItems = ['Historia', 'Géneros', 'Artistas', 'Investigación'];
+  const menuItems = ['Visión', 'Investigación', 'Géneros', 'Artistas'];
 
   // const isSticky = useSticky(false);
 
@@ -38,9 +38,9 @@ export const Navbar = () => {
   return (
     // <nav className="fixed top-0 bg-gray-900 text-white shadow-lg w-full">
     <nav className={`flex-no-wrap flex w-full items-center justify-between py-2 shadow-md shadow-black/5 
-                    bg-gray-900 lg:flex-wrap lg:justify-start lg:py-4
+                    bg-gray-900 lg:flex-wrap lg:justify-start
                     ${
-                      isSticky ? 'shadow fixed top-0 z-50 left-0 right-0 transition duration-300 ease-in-out' : ''
+                      isSticky ? 'shadow fixed top-0 z-50 left-0 right-0 transition duration-300 ease-in-out lg:py-1' : 'lg:py-4'
                     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
@@ -63,10 +63,10 @@ export const Navbar = () => {
 
             {menuItems.map(name => (
                 <li key={name} 
-                    className={`relative group cursor-pointer flex items-center gap-1 text-gray-700 
-                                hover:text-yellow-400 transition-colors
+                    className={`relative group cursor-pointer flex items-center gap-1 text-gray-500 
+                                hover:text-yellow-300 transition-colors block opacity-75 -mb-1
                                 ${
-                                  activeSection === name ? 'text-yellow-400 transition-colors' : ''
+                                  activeSection === name ? 'text-yellow-300 transition-colors' : ''
                                 }`}>
                   <span>{name}</span>
                   <MusicNoteIcon size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"/>
