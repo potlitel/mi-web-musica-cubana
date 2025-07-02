@@ -89,6 +89,7 @@ export const Navbar = () => {
                                   activeSection === name ? 'text-yellow-300 transition-colors' : ''
                                 }`}
                     onClick={(e) => scrollToElement(e, name)} >
+                  
                   <span>{name}</span>
                   <MusicNoteIcon size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"/>
                 </li>

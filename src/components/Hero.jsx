@@ -5,10 +5,14 @@ import { scrollToElement, scrollToSection, scrollToSectionUsingDT } from '../uti
 export const Hero = () => {
   return (
     // Podrías añadir una imagen de fondo aquí con bg-[url('/path/to/image.jpg')]
-    <div className="bg-gray-800 text-white text-center py-30 px-6" style={{ 
-  backgroundImage: `url('src/assets/images/vibrant-latin-musicians-cuban-dancers-performing-salsa-bachata_1322206gg-17529.avif')`,
-  backgroundRepeat: 'no-repeat',
-}}>
+    //Dos imagenes bg-[url('./src/assets/images/pngegg.png'), url('../src/assets/images/pngegg.png')] bg-cover bg-center
+    <div className="bg-gray-800 text-white text-center py-30 px-6" 
+         style={{ 
+                  backgroundImage: `url('src/assets/images/pngegg.png')`,
+                  backgroundRepeat: 'no-repeat',
+                  backgroundSize: '600px',
+                }}
+    >
       <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-yellow-400">
         {/* La Riqueza Sonora de Cuba */}
          <TypingEffect />
