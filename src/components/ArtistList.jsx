@@ -19,8 +19,9 @@ import img18 from '../assets/images/IbrahimFerrer.jpg'
 import img19 from '../assets/images/LaritzaBacallao.jpeg'
 import img20 from '../assets/images/LeoniTorres.webp'
 import img21 from '../assets/images/LeoVera.jpeg'
-import img22 from '../assets/images/OmaraPortuondo.jpg'
+import img22 from '../assets/images/OmaraPortuondo.jpeg'
 import img23 from '../assets/images/WaldoMendoza.jpg'
+import img24 from '../assets/images/TonyAvila.jpeg'
 
 const ArtistList = () => {
   return (
@@ -43,7 +44,7 @@ const ArtistList = () => {
           <img 
             src={img1} 
             alt="Rajesh Kumar" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           {/* <!-- Gradient overlay --> */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -67,7 +68,7 @@ const ArtistList = () => {
           <img 
             src={img2} 
             alt="Priya Singh" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -88,7 +89,7 @@ const ArtistList = () => {
           <img 
             src={img3}
             alt="Vikram Mehta" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -109,7 +110,7 @@ const ArtistList = () => {
           <img 
             src={img4}
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -131,7 +132,7 @@ const ArtistList = () => {
           <img 
             src={img5}
             alt="Rajesh Kumar" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           {/* <!-- Gradient overlay --> */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -155,7 +156,7 @@ const ArtistList = () => {
           <img 
             src={img6} 
             alt="Priya Singh" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -176,7 +177,7 @@ const ArtistList = () => {
           <img 
             src={img7} 
             alt="Vikram Mehta" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -197,7 +198,7 @@ const ArtistList = () => {
           <img 
             src={img8} 
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -219,7 +220,7 @@ const ArtistList = () => {
           <img 
             src={img9} 
             alt="Rajesh Kumar" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           {/* <!-- Gradient overlay --> */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -243,7 +244,7 @@ const ArtistList = () => {
           <img 
             src={img10} 
             alt="Priya Singh" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -264,7 +265,7 @@ const ArtistList = () => {
           <img 
             src={img11} 
             alt="Vikram Mehta" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -285,7 +286,7 @@ const ArtistList = () => {
           <img 
             src={img12} 
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -307,7 +308,7 @@ const ArtistList = () => {
           <img 
             src={img13} 
             alt="Rajesh Kumar" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           {/* <!-- Gradient overlay --> */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -331,7 +332,7 @@ const ArtistList = () => {
           <img 
             src={img14} 
             alt="Priya Singh" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -352,7 +353,7 @@ const ArtistList = () => {
           <img 
             src={img15} 
             alt="Vikram Mehta" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -373,7 +374,7 @@ const ArtistList = () => {
           <img 
             src={img16} 
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -395,7 +396,7 @@ const ArtistList = () => {
           <img 
             src={img17} 
             alt="Rajesh Kumar" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           {/* <!-- Gradient overlay --> */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -419,7 +420,7 @@ const ArtistList = () => {
           <img 
             src={img18} 
             alt="Priya Singh" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -440,7 +441,7 @@ const ArtistList = () => {
           <img 
             src={img19} 
             alt="Vikram Mehta" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -461,7 +462,7 @@ const ArtistList = () => {
           <img 
             src={img20} 
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -482,7 +483,7 @@ const ArtistList = () => {
           <img 
             src={img21} 
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -503,7 +504,7 @@ const ArtistList = () => {
           <img 
             src={img22} 
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -524,7 +525,28 @@ const ArtistList = () => {
           <img 
             src={img23} 
             alt="Aisha Kapoor" 
-            className="w-full h-full object-cover object-center"
+            className="w-150 h-110 object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        <div className="p-4">
+          <h3 className="font-playfair text-xl font-semibold mb-2">Aisha Kapoor</h3>
+          <p className="text-tab-purple mb-4">Photography Mentor</p>
+        </div>
+        <div className="absolute bottom-0 left-0 right-0 bg-white p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out shadow-lg rounded-t-lg">
+          <p className="text-sm text-gray-700">
+            Award-winning photographer Aisha specializes in portrait and fashion photography with publications in leading magazines.
+          </p>
+        </div>
+      </div>
+
+      {/* <!-- Instructor Card 4 --> */}
+      <div className="relative overflow-hidden group bg-white rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300">
+        <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
+          <img 
+            src={img24} 
+            alt="Aisha Kapoor" 
+            className="w-150 h-110 object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>

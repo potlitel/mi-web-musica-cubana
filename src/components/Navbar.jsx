@@ -52,6 +52,7 @@ export const Navbar = () => {
 
   return (
     // <nav className="fixed top-0 bg-gray-900 text-white shadow-lg w-full">
+    <section id='Navbar'>
     <nav className={`flex-no-wrap flex w-full items-center justify-between py-2 shadow-md shadow-black/5 
                     bg-gray-900 lg:flex-wrap lg:justify-start
                     ${
@@ -127,5 +128,6 @@ export const Navbar = () => {
         )}
       </div>
     </nav>
+    </section>
   );
 };
