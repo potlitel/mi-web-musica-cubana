@@ -2,12 +2,25 @@
 import MusicNoteIcon from 'mdi-react/MusicNoteIcon';
 // import { useSticky } from '../utils/ui-utils';
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { scrollToElement } from '../utils/ui-utils';
 import logo from '../assets/images/Gemini_Generated_Image_djd61hdjd61hdjd6-removebg-preview.png'
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuItems = ['Visión', 'Investigación', 'Géneros', 'Artistas'];
+
+  const navigate = useNavigate();
+
+  const goToSection = (sectionId) => {
+    navigate("/");
+    setTimeout(() => {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100); // Espera para asegurar que la página de inicio se haya cargado
+  };
 
   // const isSticky = useSticky(false);
 
@@ -84,7 +97,7 @@ export const Navbar = () => {
                                 ${
                                   activeSection === name ? 'text-yellow-300 transition-colors' : ''
                                 }`}
-                    onClick={(e) => scrollToElement(e, name)} >
+                    onClick={(e) => goToSection(name)} >
                   <span>{name}</span>
                   <MusicNoteIcon size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"/>
                 </li>
