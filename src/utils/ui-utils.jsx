@@ -48,3 +48,14 @@ const [isSticky, setIsSticky] = useState(initialValue);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 }
+
+/**
+ * Verifica si el usuario se encuentra navengando actualmente en la págino de inicio.
+ * https://felo.ai/search/Jr7RSBi4E3sNH6vhrGV66E
+ */
+// Aquí puedes agregar lógica para determinar si estás en la página de inicio
+export const checkHomePage = () => {
+  // Suponiendo que tienes una forma de verificar la ruta actual
+  const currentPath = window.location.pathname;
+  return currentPath;
+}

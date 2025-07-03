@@ -99,7 +99,7 @@ export const Inicio = () => {
       </section>
 
       <ArtistSection/>
-      <ArrowTop/>
+      {/* <ArrowTop/> */}
     </div>
   );
 };

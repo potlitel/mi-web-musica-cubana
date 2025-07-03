@@ -1,0 +1,9 @@
+// store.js
+import {create} from 'zustand';
+
+export const useHomeStore = create((set) => ({
+  isHomePage: false,
+  setHomePage: (value) => set({ isHomePage: value }),
+}));
+
+export default useHomeStore;

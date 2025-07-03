@@ -1,7 +1,10 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import useHomePage from "../hooks/useHomePage";
+import homePage from '../assets/images/home-1-svgrepo-com.svg'
 
 export default function ArrowTop() {
   const [visible, setVisible] = useState(false);
+  const isHomePage = useHomePage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,17 +19,33 @@ export default function ArrowTop() {
   };
 
   return (
+    <div>
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 z-50 p-3 rounded-full bg-indigo-600 text-white shadow-lg transition-opacity duration-300 hover:cursor-pointer ${
-        visible ? "opacity-100" : "opacity-0 pointer-events-none"
+      hidden = {isHomePage}
+      className={`fixed bottom-30 right-6 z-50 p-5 rounded-full bg-indigo-600 text-white shadow-lg transition-opacity duration-300 hover:cursor-pointer ${
+        visible ? "opacity-300" : "opacity-0 pointer-events-none"
       }`}
       aria-label="Volver arriba"
     >
       {/* Puedes usar un SVG o un icono de librería */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+      </svg> */}
+      <img src={homePage} alt="" className="h-8 w-8 text-white" />
+    </button>
+    <button
+      onClick={scrollToTop}
+      className={`fixed bottom-6 right-6 z-50 p-5 rounded-full bg-indigo-600 text-white shadow-lg transition-opacity duration-300 hover:cursor-pointer ${
+        visible ? "opacity-300" : "opacity-0 pointer-events-none"
+      }`}
+      aria-label="Volver arriba"
+    >
+      {/* Puedes usar un SVG o un icono de librería */}
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
       </svg>
     </button>
+    </div>
   );
 }
