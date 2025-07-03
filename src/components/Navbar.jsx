@@ -58,8 +58,8 @@ export const Navbar = () => {
               </a>
           </span> */}
 
-          <div class="flex items-center space-x-2">
-              <img src={logo} alt="" class="self-center w-15 h-15 mx-1" />
+          <div className="flex items-center space-x-2">
+              <img src={logo} alt="" className="self-center w-15 h-15 mx-1" />
               <a href="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors">
                 <span>MúsicaCubana.sci</span>
               </a>

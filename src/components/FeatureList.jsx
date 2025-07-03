@@ -7,9 +7,9 @@ const FeatureList = () => {
   return (
     <section id="FeatureList" className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
 
-        <div class="mb-16 text-center">
+        <div className="mb-16 text-center">
             {/* <h4 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Ritmo contagioso</h4> */}
-            <p class="mt-2 text-5xl lg:text-5xl font-bold tracking-tight text-white">Riqueza instrumental y fusión tradicional</p>
+            <p className="mt-2 text-5xl lg:text-5xl font-bold tracking-tight text-white">Riqueza instrumental y fusión tradicional</p>
         </div>
 
     {/* <div class="text-center mb-10">

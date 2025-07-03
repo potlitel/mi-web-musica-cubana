@@ -1,14 +1,17 @@
 
-import React, { useState, useEffect, useRef } from 'react';
-
-
+import { useState, useEffect, useRef } from 'react';
+// import { useNavigate } from "react-router-dom";
 
 /**
  * Makes scrolling to an element of the same page smooth by using scrollIntoView with the behavior: "smooth" option.
+ * https://felo.ai/search/JBq9otexJ8cyjwGjoREJyg
  * @param {Event} event - The event to handle.
  * @param {string} id - The event id.
  */
 export const scrollToElement = (event, id) => {
+  // const navigate = useNavigate();
+  // navigate("/");
+
   event.preventDefault();
   const element = document.getElementById(id);
   if (element) {

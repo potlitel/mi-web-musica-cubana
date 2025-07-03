@@ -1,8 +1,9 @@
 // src/App.jsx
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Inicio } from './pages/Inicio';
+import ArtistList from './components/ArtistList';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         {/* <Inicio /> */}
         <Routes>
             <Route path="/" element={<Inicio />} />
-            {/* <Route path="/about" element={<AboutPage />} /> */}
+            <Route path="/artists" element={<ArtistList />} />
         </Routes>
       </div>
       <Footer />
