@@ -3,6 +3,7 @@ import MusicNoteIcon from 'mdi-react/MusicNoteIcon';
 // import { useSticky } from '../utils/ui-utils';
 import { useState, useEffect } from 'react';
 import { scrollToElement } from '../utils/ui-utils';
+import logo from '../assets/images/Gemini_Generated_Image_djd61hdjd61hdjd6-removebg-preview.png'
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,9 +47,23 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo o Título del Sitio */}
+          {/* <img src={logo} class="h-xs w-xs object-cover object-center" />
           <a href="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors">
             MúsicaCubana.sci
-          </a>
+          </a> */}
+          {/* <span class="inline-flex items-baseline">
+              <img src={logo} alt="" class="self-center w-25 h-25 rounded-full mx-1" />
+              <a href="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors">
+                MúsicaCubana.sci
+              </a>
+          </span> */}
+
+          <div class="flex items-center space-x-2">
+              <img src={logo} alt="" class="self-center w-15 h-15 mx-1" />
+              <a href="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors">
+                <span>MúsicaCubana.sci</span>
+              </a>
+          </div>
 
           {/* Menú de Hamburguesa para móvil */}
           <div className="md:hidden">
@@ -64,7 +79,7 @@ export const Navbar = () => {
 
             {menuItems.map(name => (
                 <li key={name} 
-                    className={`relative group cursor-pointer flex items-center gap-1 text-gray-500 
+                    className={`relative group cursor-pointer flex items-center gap-1 text-gray-500 font-semibold
                                 hover:text-yellow-300 transition-colors block opacity-75 -mb-1
                                 ${
                                   activeSection === name ? 'text-yellow-300 transition-colors' : ''
@@ -83,7 +98,7 @@ export const Navbar = () => {
           <div className="md:hidden mt-4 space-x-6 items-center">
             {menuItems.map(name => (
                  <li key={name} 
-                    className={`relative group cursor-pointer flex items-center gap-1 text-gray-500 
+                    className={`relative group cursor-pointer flex items-center gap-1 text-gray-500 font-semibold
                                 hover:text-yellow-300 transition-colors block opacity-75 -mb-1
                                 ${
                                   activeSection === name ? 'text-yellow-300 transition-colors' : ''

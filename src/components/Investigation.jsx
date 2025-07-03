@@ -1,6 +1,6 @@
 export const Investigation = () => {
   return (
-    <section id="Investigación" class="bg-amber-200 pb-6 mt-10">
+    <section id="Investigación" class="bg-amber-200 pb-6 mt-40">
     <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
         <div class="container mx-auto px-6 p-6 bg-amber-200">
 

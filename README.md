@@ -97,3 +97,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para 
 - [Kids E-learning Platform Card](https://tailwindflex.com/@sammytg7/kids-e-learning-platform-card)
 - ["Visit Rwanda" tourism website focusing on wildlife, particularly mountain gorillas](https://tailwindflex.com/@mfuranziza-hamza/visit-rwanda-tourism-website-focusing-on-wildlife-particularly-mountain-gorillas) OJO, buen efecto 'on hover'
 - [Stepper example](https://tailwindflex.com/@santos78/stepper-example)
+- [](https://www.pngegg.com/en/png-btqoc/download)
+- [](https://marek-rozmus.medium.com/responsive-background-with-css-and-react-81a633ecb058)
+- [](https://github.com/marekrozmus/blog-responsive-background-with-react-and-css)
