@@ -1,5 +1,5 @@
 // src/App.jsx
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Inicio } from './pages/Inicio';
@@ -23,6 +23,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/artists" element={<ArtistList />} />
+            {/* Ruta catch-all: redirige todo lo no definido al Homepage */}
+            <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
       <ArrowTop/>

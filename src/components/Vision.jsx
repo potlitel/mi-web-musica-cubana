@@ -10,9 +10,17 @@ const Vision= () => {
             </svg>
             <h2 className="text-3xl font-extrabold text-gray-900">Nuestra Visión</h2>
         </div>
-        <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-15 sm:grid-cols-2 lg:grid-cols-3">
+            {/* <div class="flex items-center space-x-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+                        stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                </svg>
+                <span class="text-lg font-medium">Este es el texto al lado de la imagen</span>
+            </div> */}
             <div>
-                <div className="flex items-center justify-center h-15 w-15 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-20 w-20 rounded-md bg-indigo-500 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                         stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round"
@@ -21,14 +29,17 @@ const Vision= () => {
 
                 </div>
                 <div className="mt-5">
-                    <h3 className="text-lg font-medium text-gray-900">Misión</h3>
-                    <p className="mt-2 text-base text-gray-500">Difundir, preservar y promover la riqueza de la música cubana, conectando a artistas, creadores y 
+                    <h3 className="block font-semibold text-xl text-gray-900">Misión</h3>
+                    <p className="mt-2 text-lg text-gray-500 text-justify">Difundir, preservar y promover la riqueza de la música cubana, conectando a artistas, creadores y 
                         públicos de todo el mundo. Nos comprometemos a ser un puente entre las raíces y la innovación, apoyando a los músicos cubanos en su 
                         desarrollo profesional y facilitando el acceso a su arte a nuevas generaciones y audiencias globales</p>
                 </div>
             </div>
+
+
+            
             <div>
-                <div className="flex items-center justify-center h-15 w-15 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-20 w-20 rounded-md bg-indigo-500 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                         stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round"
@@ -37,12 +48,12 @@ const Vision= () => {
 
                 </div>
                 <div className="mt-5">
-                    <h3 className="text-lg font-medium text-gray-900">Valores</h3>
-                    <p className="mt-2 text-base text-gray-500">Autenticidad, Colaboración, Innovación, Inclusión, Excelencia, Respeto.</p>
+                    <h3 className="block font-semibold text-xl text-gray-900">Valores</h3>
+                    <p className="mt-2 text-lg text-gray-500 text-justify">Autenticidad, Colaboración, Innovación, Inclusión, Excelencia, Respeto.</p>
                 </div>
             </div>
             <div>
-                <div className="flex items-center justify-center h-15 w-15 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-20 w-20 rounded-md bg-indigo-500 text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                         stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round"
@@ -52,8 +63,8 @@ const Vision= () => {
 
                 </div>
                 <div className="mt-5">
-                    <h3 className="text-lg font-medium text-gray-900">Visión</h3>
-                    <p className="mt-2 text-base text-gray-500">Ser la plataforma de referencia internacional para la música cubana, impulsando su reconocimiento y
+                    <h3 className="block font-semibold text-xl text-gray-900">Visión</h3>
+                    <p className="mt-2 text-lg text-gray-500 text-justify">Ser la plataforma de referencia internacional para la música cubana, impulsando su reconocimiento y
                         presencia en el escenario mundial. Aspiramos a construir una comunidad vibrante donde la tradición y la creatividad se encuentren, y 
                         donde cada artista cubano tenga la oportunidad de compartir su talento y legado con el mundo, consolidando a Cuba como un epicentro musical 
                         de excelencia y diversidad.</p>
