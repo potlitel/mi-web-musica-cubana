@@ -43,7 +43,8 @@ export const GeneroDetails = () => {
   <article>
     <header className="mx-auto w-auto mt-20 max-w-screen-xl rounded-t-lg bg-white pt-16 text-center shadow-lg">
       {/* <p className="text-gray-500">Published April 4, 2022</p> */}
-      <h1 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">{genero.title}</h1>
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">Género musical: <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">{genero.title}</span></h1>
+      {/* <h1 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">{genero.title}</h1> */}
       <p className="mt-6 mb-3 text-lg text-gray-500 md:text-xl dark:text-gray-400">{genero.description}</p>
       {/* <blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
         <svg class="w-8 h-8 ml-6 text-gray-400 dark:text-gray-600 mb-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
