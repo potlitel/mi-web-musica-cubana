@@ -43,6 +43,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img1} 
+            loading="lazy"
             alt="Rajesh Kumar" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -67,6 +68,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img2} 
+            loading="lazy"
             alt="Priya Singh" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -88,6 +90,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img3}
+            loading="lazy"
             alt="Vikram Mehta" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -109,6 +112,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img4}
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -131,6 +135,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img5}
+            loading="lazy"
             alt="Rajesh Kumar" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -155,6 +160,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img6} 
+            loading="lazy"
             alt="Priya Singh" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -176,6 +182,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img7} 
+            loading="lazy"
             alt="Vikram Mehta" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -197,6 +204,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img8} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -219,6 +227,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img9} 
+            loading="lazy"
             alt="Rajesh Kumar" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -243,6 +252,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img10} 
+            loading="lazy"
             alt="Priya Singh" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -264,6 +274,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img11} 
+            loading="lazy"
             alt="Vikram Mehta" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -285,6 +296,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img12} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -307,6 +319,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img13} 
+            loading="lazy"
             alt="Rajesh Kumar" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -331,6 +344,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img14} 
+            loading="lazy"
             alt="Priya Singh" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -352,6 +366,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img15} 
+            loading="lazy"
             alt="Vikram Mehta" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -373,6 +388,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img16} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -395,6 +411,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img17} 
+            loading="lazy"
             alt="Rajesh Kumar" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -419,6 +436,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img18} 
+            loading="lazy"
             alt="Priya Singh" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -440,6 +458,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img19} 
+            loading="lazy"
             alt="Vikram Mehta" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -461,6 +480,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img20} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -482,6 +502,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img21} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -503,6 +524,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img22} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -524,6 +546,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img23} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />
@@ -545,6 +568,7 @@ const ArtistList = () => {
         <div className="aspect-w-3 aspect-h-4 bg-gray-200 rounded-xl overflow-hidden relative">
           <img 
             src={img24} 
+            loading="lazy"
             alt="Aisha Kapoor" 
             className="w-150 h-110 object-cover object-center"
           />

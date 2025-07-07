@@ -58,7 +58,7 @@ export const GeneroDetails = () => {
         <button className="rounded-lg bg-gray-100 px-2 py-1 font-medium text-gray-600 hover:bg-gray-200">Identity</button>
       </div> */}
       {/* <img className=" top-20 left-0 mt-10 h-96 w-full object-cover" src="https://images.unsplash.com/photo-1504672281656-e4981d70414b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" /> */}
-      <img className=" top-20 left-0 mt-10 h-96 w-full object-cover" src={genero.imageUrl} alt={genero.title} />
+      <img className=" top-20 left-0 mt-10 h-96 w-full object-cover" loading="lazy" src={genero.imageUrl} alt={genero.title} />
     </header>
 
     <div className="mx-auto max-w-screen-xl space-y-12 rounded-b-lg bg-white px-8 pt-10 pb-20 font-serif text-lg 
@@ -75,7 +75,7 @@ export const GeneroDetails = () => {
         <p class="text-2xl italic font-medium text-gray-900 dark:text-white">"{genero.cita}"</p>
     </blockquote>
     <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-        <img class="w-20 h-20 object-cover object-center rounded-full" src={genero.autorCitaImg} alt="profile picture" />
+        <img class="w-20 h-20 object-cover object-center rounded-full" loading="lazy" src={genero.autorCitaImg} alt="profile picture" />
         <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
             <cite class="pe-3 font-medium text-gray-900 dark:text-white">{genero.autorCita}</cite>
             <cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">{genero.autorCitaShortBio}</cite>

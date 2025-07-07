@@ -27,29 +27,29 @@ const ArtistSection = () => {
                 <div className="flex items-center space-x-6 lg:space-x-8">
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                      <img src={img1} className="h-full w-full object-cover object-center" />
+                      <img src={img1} loading="lazy" className="h-full w-full object-cover object-center" />
                     </div>
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src={img3} alt="" className="h-full w-full object-cover object-center"/>
-                    </div>
-                  </div>
-                  <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src={img4} alt="" className="h-full w-full object-cover object-center"/>
-                    </div>
-                    <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src={img6} alt="" className="h-full w-full object-cover object-center"/>
-                    </div>
-                    <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src={img2} alt="" className="h-full w-full object-cover object-center"/>
+                      <img src={img3} loading="lazy" alt="" className="h-full w-full object-cover object-center"/>
                     </div>
                   </div>
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src={img5} alt="" className="h-full w-full object-cover object-center"/>
+                      <img src={img4} loading="lazy" alt="" className="h-full w-full object-cover object-center"/>
                     </div>
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src={img7} alt="" className="h-full w-full object-cover object-center"/>
+                      <img src={img6} loading="lazy" alt="" className="h-full w-full object-cover object-center"/>
+                    </div>
+                    <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src={img2} loading="lazy" alt="" className="h-full w-full object-cover object-center"/>
+                    </div>
+                  </div>
+                  <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src={img5} loading="lazy" alt="" className="h-full w-full object-cover object-center"/>
+                    </div>
+                    <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src={img7} loading="lazy" alt="" className="h-full w-full object-cover object-center"/>
                     </div>
                   </div>
                 </div>
