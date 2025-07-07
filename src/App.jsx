@@ -7,6 +7,7 @@ import ArtistList from './components/ArtistList';
 import ArrowTop from './components/ArrowTop';
 import { GeneroDetails } from './components/GeneroDetails';
 import { ScrollToTop } from './utils/ui-utils';
+import TimelineHistoria from './components/TimelineHistoria';
 // import useHomePage from "./hooks/useHomePage";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" element={<Inicio />} />
             <Route path="/artists" element={<ArtistList />} />
             <Route path="/genero/:id" element={<GeneroDetails />} />
+            <Route path="/Historia" element={<TimelineHistoria />} />
             {/* Ruta catch-all: redirige todo lo no definido al Homepage */}
             <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

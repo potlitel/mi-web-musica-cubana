@@ -101,3 +101,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para 
 - [](https://marek-rozmus.medium.com/responsive-background-with-css-and-react-81a633ecb058)
 - [](https://github.com/marekrozmus/blog-responsive-background-with-react-and-css)
 - [Blog Page Template](https://componentland.com/component/blog-page-template-3)
+- [Search with filters](https://componentland.com/component/search-with-filters-2) OJO, buen componente de filtro

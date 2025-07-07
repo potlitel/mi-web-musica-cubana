@@ -2,15 +2,27 @@
 import MusicNoteIcon from 'mdi-react/MusicNoteIcon';
 // import { useSticky } from '../utils/ui-utils';
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link} from 'react-router-dom';
 import { scrollToElement } from '../utils/ui-utils';
 import logo from '../assets/images/Gemini_Generated_Image_djd61hdjd61hdjd6-removebg-preview.png'
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const menuItems = ['Visión', 'Investigación', 'Géneros', 'Artistas'];
+  const menuItems = ['Visión', 'Investigación', 'Géneros', 'Artistas', 'Historia'];
 
   const navigate = useNavigate();
+
+  const handleClick = (name) => {
+    if (name != "Historia") {
+        // Acción si la condición es verdadera
+        goToSection(name);
+    } else {
+        // Acción si la condición es falsa (opcional)
+        // console.log("Condición no cumplida");
+        navigate(`/${name}`);
+        // <Link to={`/${name}`}>{name}</Link>
+    }
+};
 
   const goToSection = (sectionId) => {
     navigate("/");
@@ -98,7 +110,7 @@ export const Navbar = () => {
                                 ${
                                   activeSection === name ? 'text-yellow-300 transition-colors' : ''
                                 }`}
-                    onClick={(e) => goToSection(name)} >
+                    onClick={() => handleClick(name)} >
                   <span>{name}</span>
                   <MusicNoteIcon size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"/>
                 </li>
