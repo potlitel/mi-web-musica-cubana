@@ -25,15 +25,27 @@ import img24 from '../assets/images/TonyAvila.jpeg'
 
 const ArtistList = () => {
   return (
-    <section className="py-16 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-4">
-    {/* <!-- Header --> */}
-    <div className="text-center mb-12">
+    <main>
+  <article>
+    <header className="mx-auto w-auto mt-20 max-w-screen-xl rounded-t-lg bg-white pt-16 text-center shadow-lg">
+      <div className="text-center mb-12">
       <h2 className="text-4xl font-bold text-gray-900 mb-4">Conoce nuestros artistas</h2>
       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
         Aprenda de profesionales de la industria con años de experiencia en sus respectivos campos.
       </p>
     </div>
+    <img className=" top-20 left-0 mt-10 h-96 w-full object-cover" loading="lazy" src='../src/assets/images/autoresCitas/NicolásGuillén.webp' alt="{genero.title}" />
+    </header>
+    <section className="mx-auto max-w-screen-xl space-y-12 rounded-b-lg bg-white px-8 pt-10 pb-20 font-serif text-lg 
+                    tracking-wide text-gray-700 sm:shadow-lg p-4">
+  <div className="max-w-7xl mx-auto px-4">
+    {/* <!-- Header --> */}
+    {/* <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-gray-900 mb-4">Conoce nuestros artistas</h2>
+      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        Aprenda de profesionales de la industria con años de experiencia en sus respectivos campos.
+      </p>
+    </div> */}
     {/* <!-- Instructor Cards Grid --> */}
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       
@@ -595,6 +607,8 @@ const ArtistList = () => {
 
   </div>
 </section>
+ </article>
+</main>
   );
 };
 

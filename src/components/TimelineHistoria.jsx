@@ -5,8 +5,15 @@ import {efemerides} from '../data/efemeridesCubanas.js';
 const TimelineHistoria = () => (
 
   
-    
-<div class="bg-white">
+    <main>
+  <article>
+    <header className="mx-auto w-auto mt-20 max-w-screen-xl rounded-t-lg bg-white pt-16 text-center shadow-lg">
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">Historia musical cubana</h1>
+      <img className=" top-20 left-0 mt-10 h-96 w-full object-cover" loading="lazy" src='../src/assets/images/autoresCitas/NicolásGuillén.webp' alt="{genero.title}" />
+    </header>
+
+<div className="mx-auto max-w-screen-xl space-y-12 rounded-b-lg bg-white px-8 pt-10 pb-20 font-serif text-lg 
+                    tracking-wide text-gray-700 sm:shadow-lg p-4">
   
   <div class="max-w-xl mx-auto p-8">
     <div class="flow-root">
@@ -59,6 +66,9 @@ const TimelineHistoria = () => (
   </div>
 
 </div>
+</article>
+</main>
+  
 
 );
 
