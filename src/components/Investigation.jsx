@@ -1,5 +1,8 @@
+import Seccion from "../hooks/Seccion.jsx";
+
 export const Investigation = () => {
   return (
+    <Seccion>
     <section id="Investigación" className="bg-amber-200 pb-6 mt-50">
     <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
         <div className="container mx-auto px-6 p-6 bg-amber-200">
@@ -123,5 +126,6 @@ export const Investigation = () => {
         </div>
     </div>
 </section>
+</Seccion>
   );
 };

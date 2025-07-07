@@ -102,3 +102,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para 
 - [](https://github.com/marekrozmus/blog-responsive-background-with-react-and-css)
 - [Blog Page Template](https://componentland.com/component/blog-page-template-3)
 - [Search with filters](https://componentland.com/component/search-with-filters-2) OJO, buen componente de filtro
+- [AstroWind: A free template using Astro 5 and Tailwind CSS. Astro starter theme.](https://github.com/onwidget/astrowind)
