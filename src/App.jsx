@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 import { Inicio } from './pages/Inicio';
 import ArtistList from './components/ArtistList';
 import ArrowTop from './components/ArrowTop';
+import { GeneroDetails } from './components/GeneroDetails';
 // import useHomePage from "./hooks/useHomePage";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/artists" element={<ArtistList />} />
+            <Route path="/genero/:id" element={<GeneroDetails />} />
             {/* Ruta catch-all: redirige todo lo no definido al Homepage */}
             <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

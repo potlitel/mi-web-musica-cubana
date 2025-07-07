@@ -14,51 +14,61 @@ import ArtistSection from '../components/ArtistSection';
 // O usa URLs de un servicio como unsplash.com para prototipar.
 const generos = [
   {
+    "id": "1",
     title: 'Son Cubano',
     description: 'La columna vertebral de la música salsa. Una fusión de influencias españolas y africanas.',
     imageUrl: `src/assets/images/SonCubano.jpeg`
   },
   {
+    "id": "2",
     title: 'Rumba',
     description: 'Un complejo rítmico de percusión y baile que es el corazón de la cultura afrocubana.',
     imageUrl: `src/assets/images/Rumba.jpg`
   },
   {
+    "id": "3",
     title: 'Mambo',
     description: 'Evolución del danzón con ritmo más rápido y enérgico, muy popular para bailar.',
     imageUrl: `src/assets/images/Danzon.jpg`
   },
   {
+    "id": "4",
     title: 'Cha-Cha-Chá',
     description: 'Derivado del danzón y el mambo, es un ritmo bailable con un paso característico que lo hace muy popular en la música cubana y latina.',
     imageUrl: `src/assets/images/Chachacha.jpeg`
   },
   {
+    "id": "5",
     title: 'Bolero',
     description: 'Género romántico y melódico, con letras sentimentales y ritmo lento. Muy influyente en la música latina en general.',
     imageUrl: `src/assets/images/Bolero.jpg`
   },
   {
+    "id": "6",
     title: 'Guaracha',
     description: 'Música rápida y alegre, con letras humorísticas o satíricas, muy popular en la música popular cubana.',
     imageUrl: `src/assets/images/Guaracha.jpg`
   },
   {
+    "id": "7",
     title: 'Changüí',
     description: 'Ritmo ancestral de las lomas de Guantánamo, considerado la raíz del son cubano. Usa instrumentos como el tres, maracas y marímbula, y tiene un ritmo sincopado y festivo.',
     imageUrl: `src/assets/images/Changüí.jpg`
   },
   {
+    "id": "8",
     title: 'Punto Cubano',
     description: 'Música campesina con fuerte influencia española y africana, caracterizada por la décima improvisada y el uso de guitarra, laúd y tres. Es tradicional en zonas rurales y urbanas.',
     imageUrl: `src/assets/images/PuntoCubano.jpg`
   },
   {
+    "id": "9",
     title: 'Timba',
     description: 'Evolución moderna de la salsa cubana, con influencias del jazz, funk y música popular cubana, muy rítmica y bailable.',
     imageUrl: `src/assets/images/Timba.webp`
   },
   {
+    "id": "10",
     title: 'Salsa',
     description: 'Aunque nació en Nueva York, la salsa tiene raíces profundas en la música cubana, especialmente en el son y otros ritmos afrocubanos. Tiene subgéneros como salsa dura, romántica y timba.',
     imageUrl: `src/assets/images/Salsa.jpg`
@@ -92,6 +102,7 @@ export const Inicio = () => {
                 title={genero.title}
                 description={genero.description}
                 imageUrl={genero.imageUrl}
+                id={genero.id}
               />
             ))}
           </div>

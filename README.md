@@ -88,7 +88,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para 
 - [Product feature section](https://tailwindflex.com/@anonymous/product-feature-section)
 - [Our services component](https://tailwindflex.com/@kris-showen/our-services-component)
 - [Features claves de la musica cubana](https://www.perplexity.ai/search/features-claves-de-la-musica-c-sHzFO.ClQvuhJ7Qj0n77iQ)
-- [Listame por favor, lineas interesantes de investiagación relacionados con la musica cubana](https://www.perplexity.ai/search/listame-por-favor-temas-intere-HSNwJ2MzQNuSQHZ7VoonAg)
+- [Listame por favor, lineas interesantes de investigación relacionados con la musica cubana](https://www.perplexity.ai/search/listame-por-favor-temas-intere-HSNwJ2MzQNuSQHZ7VoonAg)
 - [Product features list with inner border](https://tailwindflex.com/@limaa-m/product-features-list-with-inner-border)
 - [EPUB Reader](https://icecreamapps.com/es/Ebook-Reader/) -> Landing page de referencia.
 - [How To Make The Navigation Bar Sticky On Scrolling In React](https://chesteralan.medium.com/how-to-make-the-navigation-bar-sticky-on-scrolling-in-react-a7ee629fe30c)
@@ -100,3 +100,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE.md` para 
 - [](https://www.pngegg.com/en/png-btqoc/download)
 - [](https://marek-rozmus.medium.com/responsive-background-with-css-and-react-81a633ecb058)
 - [](https://github.com/marekrozmus/blog-responsive-background-with-react-and-css)
+- [Blog Page Template](https://componentland.com/component/blog-page-template-3)
