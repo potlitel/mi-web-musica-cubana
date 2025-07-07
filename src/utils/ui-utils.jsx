@@ -1,5 +1,6 @@
 
 import { useState, useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 // import { useNavigate } from "react-router-dom";
 
 /**
@@ -59,3 +60,16 @@ export const checkHomePage = () => {
   const currentPath = window.location.pathname;
   return currentPath;
 }
+
+/*
+https://felo.ai/search/Sf4tiHMmtfGuCd6aSuPZVb
+*/
+export const ScrollToTop = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return null; // Este componente no necesita renderizar nada
+};

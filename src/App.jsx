@@ -6,6 +6,7 @@ import { Inicio } from './pages/Inicio';
 import ArtistList from './components/ArtistList';
 import ArrowTop from './components/ArrowTop';
 import { GeneroDetails } from './components/GeneroDetails';
+import { ScrollToTop } from './utils/ui-utils';
 // import useHomePage from "./hooks/useHomePage";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Router>
     <div className="min-h-screen flex flex-col bg-gray-100">
       <Navbar />
+      <ScrollToTop />
       {/* <div>
         <h1>{isHomePage ? 'Estás en la página de inicio' : 'No estás en la página de inicio'}</h1>
       </div> */}
